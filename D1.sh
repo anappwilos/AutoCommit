@@ -7,6 +7,13 @@ echo "Enter the number by folder";
 read nF
 for ((i=$nF;i<=$NuF;i++));
 do
+	echo "$i"
+	mkdir $NFOLD$i
+	cd $NFOLD$i
+	touch Readme.md
+	git add ../$NFOLD$i
+	git commit -m "AC-N$i : CR 'AC$i/'"
+	cd ..
 	rm -rf $NFOLD$i
 	git add $NFOLD$i
 	git commit -m "AC-N$i : Del 'AC$i/'"
