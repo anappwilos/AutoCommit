@@ -7,7 +7,6 @@ echo "Enter the number by folder";
 read nF
 for ((i=$nF;i<=$NuF;i++));
 do
-	echo "$i"
 	mkdir $NFOLD$i
 	cd $NFOLD$i
 	touch Readme.md
