@@ -9,7 +9,7 @@ for ((i=$nF;i<=$NuF;i++));
 do
 	mkdir $NFOLD$i
 	cd $NFOLD$i
-	touch Readme.md
+	touch R
 	git add ../$NFOLD$i
 	git commit -m "AC-N$i : CR 'AC$i/'"
 	cd ..
