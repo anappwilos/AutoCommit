@@ -1,8 +1,7 @@
 #!/bin/bash/ 
 while true; 
 do 
-echo "reinit";
 git push
-sleep 150; 
-#sleep 0.3; 
+#sleep 5; 
+sleep 0.3; 
 done
