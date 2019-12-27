@@ -7,14 +7,14 @@ echo "Enter the number by folder";
 read nF
 for ((i=$nF;i<=$NuF;i++));
 do
-mkdir $NFLD$i
-cd $NFLD$i
-touch R
-git add ../$NFLD$i
-git commit -m "A-N$i : CR 'A$i/'"
-cd ..
-rm -rf $NFLD$i
-git add $NFLD$i
-git commit -m "A-N$i : Del 'A$i/'"	
+    mkdir $NFLD$i
+    cd $NFLD$i
+    touch R
+    git add ../$NFLD$i
+    git commit -m "A-N$i : CR 'A$i/'"
+    cd ..
+    rm -rf $NFLD$i
+    git add $NFLD$i
+    git commit -m "A-N$i : Del 'A$i/'"	
 done
 
