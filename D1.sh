@@ -1,10 +1,4 @@
 #!/bin/sh
-#________________________________________________________________________________
-#
-#			                        D1
-# Programa que crea y elimina carpetas para la generación de commits
-#
-#________________________________________________________________________________
 echo "Enter the name folder (Ex: MyFolder) :" 
 read NFLD					
 echo "Enter the number repeat for your folders : (Ex: 10)" 
